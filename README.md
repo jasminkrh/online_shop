@@ -1,5 +1,5 @@
 # online_shop
-This is a project for Web Engineering with Python. 
+This is a project for Web Engineering with Python
 
 
 # Installation
