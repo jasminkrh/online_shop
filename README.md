@@ -3,7 +3,7 @@ This is a project for Web Engineering with Python
 
 
 # Installation
-- git clone https://github.com/Cherrytomaten/getOutside_backend.git 
+- git clone https://github.com/emiliadoe/online_shop.git
 - cd ../path/to/the/file
 
 # Virtual Environment
