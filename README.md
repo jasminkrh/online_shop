@@ -27,5 +27,20 @@ python manage.py makemigrations python manage.py migrate
 # Server starten
 python manage.py runserver
 
-# how to use git 
+#aufgaben 
+
+- mögliche Modelle und Ihre Verhältnisse
+
+- welche views
+
+- Kundenportal:
+Wie viele Rollen werden benötigt?
+Welche Rolle hat welchen Zugriff auf welches Objekt?
+Auf welche Art und Weise sollen Berechtigte auf die Objekte zugreifen können?
+
+- Mockups
+
+-  welche User haben welche Rechte?(in einer Tabelle notieren)
+
+
 
