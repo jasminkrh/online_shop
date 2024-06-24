@@ -1,9 +1,7 @@
 from django.db import models
-
-# Create your models here.
-
-from django.db import models
 from django.contrib.auth.models import User
+from django.conf import settings
+
 
 
 class Product(models.Model):
@@ -37,7 +35,7 @@ class Rating(models.Model):
     text = models.TextField(max_length=500)
     """ star rating """
     timestamp = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
 
     class Meta:
