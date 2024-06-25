@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_shop_app.apps.DjangoShopAppConfig',
     'UserAdmin.apps.UseradminConfig',
+    'CustomerService.apps.CustomerserviceConfig'
+
 ]
 
 MIDDLEWARE = [

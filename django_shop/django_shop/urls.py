@@ -28,6 +28,8 @@ urlpatterns = [
     path('useradmin/', include('django.contrib.auth.urls')),
     path('useradmin/', include('UserAdmin.urls')),
     path('shop/', include('django_shop_app.urls')),
+    path('customerservice/', include('CustomerService.urls')),
+
 ]
 
 
